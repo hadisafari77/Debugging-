@@ -1,0 +1,45 @@
+Debugging and finding errors for the Broken Code for "BooTheDogFanPage"
+
+1.First Error: Line 19, the heading was not put into a h1 tag, hence the heading of the page wasn't showing properly. 
+ <h1>Boo The Dog Fan Page!</h1> 
+
+2.Error: Line 22-33, i removed the instructions banner: 	
+ 
+ <div class="row">
+	<div class="col-sm-12">
+		<div class="panel panel-primary">
+		<div class="panel-heading">Instructions</div>
+			<div class="panel-body text-center">
+					<h4>Oh no! Someone has vandalized our Boo 'The Cutest Dog In The World' fanpage!</h4>
+				<h4>There are a bunch of errors on this page!</h4>
+				<h4>Try your best to find them all!</h4>
+				</div>
+				</div>
+		</div>
+	</div>
+
+3. Error: 
+
+The lines in the biography were not written into the <p> </p> elements therefore, the text wasn't showing properly
+
+
+
+4. Error: The link was simply written after ">"  which only illustrated the link, 
+
+    But the correct URL couldn't be identified as the the  link was not written in the double quotes after the "href=" 
+
+<a href="https://en.wikipedia.org/wiki/Boo_(dog)">"https://en.wikipedia.org/wiki/Boo_(dog)"</a>
+
+    
+5. Erorr: the img element wasn't written in the < > symbols 
+
+
+6. Error: the list of the favorit things wasn't properly written in the <li> </li> elements
+
+7.Error: Html file wasn't properly linked to the JS file
+   <script type="text/javascript" src="errors.js"></script>
+         for the random Boo facts to work 
+
+
+8.Error: In the different color variations for the text Boo Rules, the variables were put in the wrong order
+for ex: <button class="btn" id="textPink">Green</button> 
